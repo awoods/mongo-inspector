@@ -1,0 +1,12 @@
+[project]
+name = "mongo-mos"
+version = "0.1.0"
+description = "Query the DRS MOS Mongo collection by objectUrn and write results to CSV"
+requires-python = ">=3.9"
+dependencies = [
+    "pymongo>=4.6",
+    "python-dotenv>=1.0",
+]
+
+[tool.uv]
+package = false
